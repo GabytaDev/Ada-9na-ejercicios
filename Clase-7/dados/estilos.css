@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(175, 174, 174);
+    display: flex;
+    justify-items: center;
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.dado1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punto-uno{
+    
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dado2{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-content:space-around;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.punto-dos{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+.dado3{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.dado4{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.dado5{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.dado6{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}

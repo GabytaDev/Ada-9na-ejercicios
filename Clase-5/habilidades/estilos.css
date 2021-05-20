@@ -1,0 +1,80 @@
+
+.fondo{
+    background-color: rgb(187, 246, 246);
+    padding:200px;
+    margin-left: 80px;
+    display: inline-block;
+    
+}
+
+.card{
+    width: 360px;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border: 1px solid lightgray ;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(43, 39, 71);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+button{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-left: 100px;
+    background-color: white;
+    color: rgb(155, 165, 175);
+}
+
+h4{
+    margin-top:10px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 16px;    
+}
+
+p{
+    margin-top:10px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 12px;  
+}
+
+.barra1
+{
+    width:320px;
+    height:80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border : 1px solid lightgray;
+    border-radius: 5px;
+    border-left: 4px solid rgb(236, 49, 190);      
+}
+
+.barra2
+{
+    width:320px;
+    height:80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border : 1px solid lightgray;
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 49, 236);      
+}
+
+.barra3
+{
+    width:320px;
+    height:80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border : 1px solid lightgray;
+    border-radius: 5px;
+    border-left: 4px solid rgb(236, 186, 49);      
+}
+

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+h1, h2{
+    color: rgb(40, 39, 44);
+}
+h2{
+    font-size: 18px;
+}
+p{
+    color: rgb(81, 81, 85);
+    font-size: 14px;
+}
+.general > .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulos{
+    width:400px ;
+    height:78px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 115px 250px 50px 500px;
+    
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 920px;
+    height: 370px;
+    margin-left: 270px;
+}
+
+.cards{
+    width: 443px;
+    height: 178px;
+    padding: 5px;
+}
+
+
+
+img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(165, 154, 236);
+    border-radius: 10px;
+    padding: 5px;
+
+}

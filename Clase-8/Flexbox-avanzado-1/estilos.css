@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1{
+    width: 250px;
+}
+
+.div2{
+    
+}
+
+.div3{
+    width: 250px;
+}

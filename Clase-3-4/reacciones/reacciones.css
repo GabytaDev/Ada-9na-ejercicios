@@ -1,0 +1,22 @@
+*{
+    font-family: 'Montserrat';
+
+}
+
+h2,h3{
+    font-size: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: #BE3969;
+}
+
+.fecha{
+    color: #9b9b9b;
+    font-size: 12px;
+}
+
+span{
+    background-color: #9b9b9b;
+}

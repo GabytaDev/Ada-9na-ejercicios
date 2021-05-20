@@ -1,0 +1,90 @@
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 46, 46);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.titulos{
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+.cards{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(85, 82, 82);
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;    
+}
+
+
+h3{
+    font-size: 30px;
+}
+.precio{
+    font-size: 40px;
+}
+.num{
+    margin-bottom: 5px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 18px;
+}
+.lista{
+    margin: 0px 30px;
+    padding: 0px;
+}
+li{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.boton{
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    width: 290px;
+    height: 96px;
+    color: cornflowerblue;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    text-align: center;
+}
+
+.cards > .boton{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}

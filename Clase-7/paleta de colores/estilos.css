@@ -1,0 +1,96 @@
+html, body{
+    height: 100%;
+    background-color:#EBEBF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    width: 860px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;/*para que la card enfasis pueda subir con align-self*/
+}  
+
+.container > .card-enfasis {/*indico cual card quiero que suba de la linea*/
+    align-self: flex-start; 
+    box-shadow: 0 4px 8px 8px rgb(0 0 0 / 20%)
+}
+
+.cards{
+    width: 128px;
+    height: 160px;
+    border-radius: 5px;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    text-align: center;
+    
+
+}
+.cards > .color-fondo1{
+ background-color: #EBEBF3;
+ width: 128px;
+ height: 160px;
+ margin:0;
+}
+
+
+.color-fondo2{
+    background-color: #A3B2C2;
+    width: 128px;
+ height: 160px;
+ margin:0;
+}
+.cards > .color-fondo3{
+    background-color: #FBABA4;
+    width: 128px;
+    height: 160px;
+    margin:0;
+}
+.color-fondo4{
+    width: 128px;
+    height: 160px;
+    margin:0;
+    background-color: #4C545F;
+}
+.color-fondo5{
+    width: 128px;
+    height: 160px;
+    margin:0;
+    background-color: #AF4884;
+}
+
+.color-fondo-titulo{
+    background-color: rgb(16, 16, 42);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 16px 10px 16px;
+    font-size: 12px;
+
+    
+}
+
+
+
+.boton{
+    width: 260px;
+    background-color: rgb(163, 106, 195);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.color-fondo-footer{
+    background-color: white;
+    border-radius: 20px;
+    color: #7C7C84;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 40px;
+}

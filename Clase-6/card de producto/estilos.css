@@ -1,0 +1,80 @@
+*{
+    font-family: 'Bebas Neue','Roboto', sans-serif;
+}
+
+body,html{
+    width: 100%;
+    background-color: rgb(248, 246, 245);  
+}
+.card-entera{
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.card{
+    width: 600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(143, 13, 13);
+    height: 340px;
+
+}
+
+img{
+    width: 200px;
+    height: 225px;
+    margin-top: 60px;
+    
+}
+
+.texto{
+    background-color: rgb(20, 20, 54);
+    color: white;
+    height:580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;   
+}
+
+.star{
+    margin: 5px 10px 5px 10px;
+    border-radius: 16px;
+    border:solid rgb(143, 13, 13);
+    padding: 5px;
+    font-family:'Roboto';
+    font-size: 10px;
+
+}
+
+h4, p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Roboto';
+}
+
+.precio{
+    font-size: 30px;
+    
+}
+button{
+    border-radius: 30px;
+    border-color: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color:rgb(143, 13, 13);
+    color: white;
+}

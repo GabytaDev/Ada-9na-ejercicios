@@ -1,0 +1,105 @@
+html,body{
+    background: rgb(233, 233, 233);
+    box-sizing: border-box;
+    display: flex;
+    
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-general{
+    width: 325px;
+    height: 546px;
+    background-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+
+
+}
+
+.numero{
+    height: 78px;
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.numero > .cero{
+    margin-top: 70px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.botones{
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.botones > p{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    font-size: 24px;
+    color: black;
+    background-color: grey;
+    border-radius: 50%;
+    text-align: center;
+    
+    margin: 5px;   
+}
+
+
+.botones-final{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones-final > p{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    background-color: grey;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+    flex-direction: row;
+    padding: 8px;
+  
+}
+.botones > .color-blanco{
+    color: white;
+}
+
+.botones-final > .cero-final{
+    width: 120px;
+    height: 44px;
+    border-radius: 30px; 
+    
+}
+
+.botones > .fondo {
+    background-color: rgb(240, 168, 13);
+    color: white;
+}
+
+.botones-final >.fondo{
+    background-color: rgb(240, 168, 13);
+    color: white;
+}
+

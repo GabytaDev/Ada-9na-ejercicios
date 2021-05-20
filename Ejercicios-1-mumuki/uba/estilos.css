@@ -1,0 +1,17 @@
+.titulo{
+color: red;
+font-style: italic;
+}
+
+.uba{
+background-color:aqua;
+font-weight: lighter;
+}
+
+.mail{
+    background-color: aqua;
+}
+
+.cursiva{
+    font-style: italic;
+}

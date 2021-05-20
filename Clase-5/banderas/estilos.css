@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    
+}
+
+.banderas{
+    display:inline-block;
+    
+}
+
+.bandera-rusia, .bandera-argentina, .bandera-alemania, .bandera-egipto,
+.bandera-austria, .bandera-bulgaria{
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;  
+}
+
+.franja-celeste{
+    background-color: rgb(135, 217, 233);
+    width: auto;
+    height: 66px;
+    
+}
+.franja-blanca{
+    background-color: #ffffff;
+    width: auto;
+    height: 66px;
+}
+
+.franja-azul{
+    background-color: rgb(11, 11, 153);
+    width: auto;
+    height: 66px;
+    
+}
+
+.franja-roja{
+    background-color: rgb(251, 13, 13);
+    width: auto;
+    height: 66px;  
+}
+
+.franja-negra{
+    background-color: rgb(12, 11, 11);
+    width: auto;
+    height: 66px;  
+}
+
+.franja-amarilla{
+    background-color: rgb(251, 247, 13);
+    width: auto;
+    height: 66px;  
+}
+
+.franja-verde{
+    background-color: rgb(26, 122, 34);
+    width: auto;
+    height: 66px;  
+}

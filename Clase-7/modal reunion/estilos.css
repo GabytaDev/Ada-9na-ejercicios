@@ -1,0 +1,71 @@
+body, html{
+    height: 100%;
+    background-color: rgb(210, 201, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.card{
+    width: 411px;
+    height: 364px;
+    border-radius: 20px;
+    background-color: rgb(25, 24, 50);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.card > .close{
+    width: 400px;
+    height: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+img{
+    width: 20px;
+    height: 20px;
+   
+}
+.card-interna{
+    width: 328px;
+    height: 124px;
+    padding: 14px;
+    font-size: 14px;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(35, 35, 67);
+}
+.puntaje{
+    width: 328px;
+    height: 34px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color:rgb(106, 102, 147);
+    
+}
+.boton{
+    width: 182px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(87, 23, 156);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 5px;
+}

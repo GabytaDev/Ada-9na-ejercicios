@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins';
+}
+
+h1, h2{
+    font-size: 25px;
+}
+
+time{
+    font-size: 12px;
+    color: rgb(168, 167, 167);
+}
+
+.pendiente{
+    background-color: rgb(11, 11, 194);
+}
+
+.haciendo{
+    background-color: rgb(255, 165, 0);
+}
+
+.hecha{
+    background-color: rgb(24, 180, 24);
+}
+
+.cancelada{
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,39 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background-color: darkseagreen;
+}
+div{
+    display: block;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: #f7f7fc;
+    border-radius: 10px;
+    text-align: center; 
+    padding: 30px;
+    margin: 150px auto;
+}
+
+.texto{
+    color: #becbf1;
+}
+
+.frutasCont{
+    color: #000000;
+    font-size: 16px;  
+
+}
+p > .frutasCont{
+    margin: 10px;
+}
+
+.frutas{
+    background-color: #ffffff;
+    border-radius: 100px;
+    
+    margin: 20px;
+}

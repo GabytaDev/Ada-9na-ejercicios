@@ -1,0 +1,20 @@
+body{
+    background-color: #212121;
+    color: #FAFAFA;
+}
+
+h1{
+    font-size: 120px;
+    font-family: 'Montserrat';
+    color: rgb(190, 57, 105);
+}
+
+p{
+    font-size: 48px;
+    font-family: 'Poppins';
+    color: rgb(250, 250, 250);
+}
+
+span{
+    color: #BE3969;
+}
