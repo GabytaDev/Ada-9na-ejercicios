@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    width: 730px;
+    height: 370px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.box-imagen{
+    width: 500px;
+    background-color: grey;
+    
+   
+}
+
+.informacion{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    text-align:left;
+    margin-left: 20px;
+    
+}
+
