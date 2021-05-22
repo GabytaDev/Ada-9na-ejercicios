@@ -15,70 +15,72 @@ body{
     justify-content: center;
     align-items: center;
 }
-.dado1{
+
+.dado{ /* cuadrado */
     width: 100px;
     height: 100px;
     border-radius: 10px;
     margin: 10px;
+    padding: 18px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cont-interno1{ /* contenedor del punto */
+    width: 100%;
+    height: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.punto-uno{
-    
-    background-color: black;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
-.dado2{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: white;
+.cont-interno2{ /* contenedor del punto */
+    width: 100%;
+    height: 50%;
     display: flex;
-    align-content:space-around;
-    flex-direction: row;
-    justify-content: space-around;
-    
+    align-items:flex-start;
 }
 
-.punto-dos{
+.cont-interno3{ /* contenedor del punto */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.cont-interno4{ /* contenedor de 2 puntos */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.cont-interno5{ /* contenedor de 2 puntos */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cont-interno6{ /* contenedor de 2 puntos */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.punto{ /* caract que comparten todos los dados , el punto*/
     background-color: black;
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    
 }
-.dado3{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: white;
-}
-.dado4{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: white;
-}
-.dado5{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: white;
-}
-.dado6{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: white;
-}
+
+
