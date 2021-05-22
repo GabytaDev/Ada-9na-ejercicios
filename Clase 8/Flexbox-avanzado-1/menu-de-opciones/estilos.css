@@ -1,0 +1,62 @@
+.body, html{
+    height:100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor-general{
+    width: 600px;
+    padding: 20px;
+    background-color: rgb(208, 208, 245);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    text-align: center;
+
+
+}
+.foto , .icono{
+    width: 100px;
+    background-color: white;
+    margin: 5px;
+}
+.nombre{
+    background-color: white;
+    margin: 5px;
+    flex-grow: 2;
+}
+
+.contenedor-interno{
+    flex-grow: 2;
+    justify-content: center;
+
+}
+
+.caracteristicas-int{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 5px;
+    
+}
+
+.contenedor-boton{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.caracteristicas-boton{
+    width: 300px;
+    background-color: rgb(71, 99, 255);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
