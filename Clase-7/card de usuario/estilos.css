@@ -1,0 +1,132 @@
+html, body{
+    background-color: rgb(91, 91, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    width: 494px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
+    padding: 20px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.nombre{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column; 
+}
+h1{
+    color: rgb(91, 91, 220); 
+}
+.numeros{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+div.numeros > p{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container > .redes{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.redes{
+    margin-left: 100px;
+    margin-right:100px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.redes1{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes2{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color:skyblue;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes3{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color:rgb(255, 0, 119);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes4{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color:rgb(41, 40, 40);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow{
+    width: 200px;
+    height: 56px;
+    border-radius: 60px;
+    margin: 20px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.follow-seccion{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
