@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
      
@@ -14,15 +10,19 @@ h1{
 h2{
     font-size: 18px;
     color: rgb(40, 39, 44);
+    margin: 0;
 }
 
 p{
     color: rgb(81, 81, 85);
     font-size: 14px;
+    width: auto;
+    
 }
 .general > .container{
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -43,12 +43,15 @@ p{
     width: 920px;
     height: 370px;
     margin-left: 270px;
+    
+    
 }
 
 .cards{
     width: 443px;
     height: 178px;
     padding: 5px;
+    display: flex;
 }
 
 
@@ -59,4 +62,9 @@ img{
     border-radius: 10px;
     padding: 8px;
 
+}
+.contenedor-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
