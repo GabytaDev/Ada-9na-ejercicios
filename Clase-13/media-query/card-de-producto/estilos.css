@@ -1,0 +1,90 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.card{
+    width: 1000px;
+    background-color: #cb2140;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;    
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 70%) ;
+}
+
+.contenido-imagen{
+    display: block;
+    margin: auto;
+    
+}
+.seccion{
+    width: 420px;
+    margin: 30px 40px 30px 40px;
+}
+
+
+.contenido-producto{
+    background-color: rgb(17, 30, 66);
+    color: white;
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.text-select{
+    text-align:left;
+    margin: 30px 40px 30px 40px;
+}
+.select{
+    border: 1px solid #cb2140;
+    border-radius: 16px;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+.precio-producto{
+    font-size: 34px;
+   
+}
+
+button{
+    background-color:#cb2140 ;
+    color: white;
+    border-radius: 50px;
+    padding: 14px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .card{
+        width: 500px;
+        flex-direction: column;
+    }
+    .contenido-imagen{
+        width: 60%;
+        margin: 30px auto;
+    }
+    .contenido-producto{ 
+        text-align: center; 
+        display: flex;
+       justify-content: center; 
+       flex-direction: column; 
+       
+    }
+
+    
+}
