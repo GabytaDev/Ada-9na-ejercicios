@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    max-width: 800px;
+    border-radius: 20px;
+    background-color: lightblue;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 18px; /*aca pongo el tamaño de pixel*/
+}
+
+.titulo{
+    font-size: 2em;
+}
+.titulo-dos{
+    font-size: 1.7em;
+}
+.subtitulo{
+    font-size: 1.5em;
+}
+.parrafo{
+    font-size: 1em;
+}
+
+
+@media screen and (max-width:600px){
+    .container{
+        font-size: 0.8em; /* aca pongo que se achique cuando tenga 660px de ancho max*/
+    }
+}
+/*asi es?*/
