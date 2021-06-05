@@ -1,5 +1,18 @@
+body,html{
+    text-align: center;
+}
 .formulario{
-    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    
+    
 }
+
