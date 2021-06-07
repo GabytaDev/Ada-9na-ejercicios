@@ -10,17 +10,40 @@
 <body>
     <h1>Carga de productos</h1>
     <form action="/cargadeproducto.html">
-    <label for="">Producto</label>
-    <input type="text">
-    <select name="marca" id="">
-        <option value="klater">Klater</option>
-        <option value="topmega">Top Mega</option>
-        <option value="fierce">Fierce</option>
-        <option value="shimano">Shimano</option>
-        <option value="lamborghini">Lamborghini</option>
-        <option value="aurora">Aurora</option>
-        <option value="gt">GT</option>
-    </select>
+
+        <label for="producto">Producto
+            <input type="text">
+        </label>
+
+        <label for="marca"> Marca
+            <select name="marca" id="">
+                <option value="">Seleccione una marca</option>
+                <option value="klater">Klater</option>
+                <option value="topmega">Top Mega</option>
+                <option value="fierce">Fierce</option>
+                <option value="shimano">Shimano</option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="aurora">Aurora</option>
+                <option value="gt">GT</option>
+            </select>
+        </label>
+        
+        <label for="rodado">Rodado
+            <input type="number">
+        </label>
+
+        <label for="categoria">Categoría del producto
+            <br>
+            <input type="radio" name="categoria" value="mbike">Mountain Bike
+            <input type="radio" name="categoria" value="paseo">Paseo
+            <input type="radio" name="categoria" value="plegable">Plegable
+            <input type="radio" name="categoria" value="carrera">Carrera
+        </label>
+
+        <label for="descripcion">Descripción del Producto</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="cargar">
     </form>
     
 </body>
