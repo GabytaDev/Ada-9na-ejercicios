@@ -14,22 +14,30 @@
 
         <form action="/registro">
             <label for="">Nombre
-                <input type="text">
+                <input type="text" placeholder="Tu nombre">
             </label>
 
             <label for="">Apellido
-                <input type="text">
+                <input type="text" placeholder="Tu apellido">
             </label>
 
             <label for="">DNI
-                <input type="number">
+                <input type="number" placeholder="Tu DNI sin puntos" maxlength="8">
             </label>
             <label for="">Email
-                <input type="email">
+                <input type="email" placeholder="adalovelace@gmail.com">
             </label>
             <label for="">Contraseña
-                <input type="password">
+                <input type="password" placeholder="Entre 8 y 16 caracteres" maxlength="16">
             </label>
+
+            <label for="">Acepta los terminos y condiciones
+                <input type="checkbox" name="terminos" value="si" />
+            </label>
+            
+            <input type="submit" value="Crear registro"> 
+            
+            
         </form>
         
 
