@@ -13,29 +13,39 @@
     <section class="formulario">
 
         <form action="/registro">
-            <label for="">Nombre
+            <div>
+                <label for="">Nombre</label>   
                 <input type="text" placeholder="Tu nombre">
-            </label>
-
-            <label for="">Apellido
-                <input type="text" placeholder="Tu apellido">
-            </label>
-
-            <label for="">DNI
+    
+                <label for="">Apellido</label>  
+                <input type="text" placeholder="Tu apellido">  
+            </div>
+            
+            <div>
+                <label for="">DNI</label>  
                 <input type="number" placeholder="Tu DNI sin puntos" maxlength="8">
-            </label>
-            <label for="">Email
+    
+                <label for="">Email </label>
                 <input type="email" placeholder="adalovelace@gmail.com">
-            </label>
-            <label for="">Contraseña
-                <input type="password" placeholder="Entre 8 y 16 caracteres" maxlength="16">
-            </label>
-
-            <label for="">Acepta los terminos y condiciones
-                <input type="checkbox" name="terminos" value="si" />
+            </div>
+            
+            <div>
+                <label for="">Contraseña</label>
+                <input type="password"  maxlength="16">
+    
+                <label for="">Repetir Contraseña</label>
+                <input type="password" maxlength="16">
+                <p>*La contraseña debe tener entre 8 y 16 caracteres</p>
+            </div>
+            
+           <div>
+            <label for="acepta">
+                 <input type="checkbox" name="terminos" value="si" /> Acepta los terminos y condiciones
             </label>
             
-            <input type="submit" value="Crear registro"> 
+            
+            <input type="submit" value="Registrarse"> 
+           </div>
             
             
         </form>

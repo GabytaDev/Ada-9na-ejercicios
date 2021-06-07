@@ -1,18 +1,26 @@
 body,html{
     text-align: center;
+    
 }
 .formulario{
     display: flex;
+    align-content: center;
     justify-content: center;
 }
 
 form{
-    width: 300px;
-    height: 300px;
+    width: 540px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
     
+}
+
+p{
+    font-size: 12px;
 }
 
