@@ -1,0 +1,26 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 233, 242);
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+
+.card{
+    width: 360px;
+    height: 340px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+input, select{
+    width: 100px;
+}
