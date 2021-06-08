@@ -8,43 +8,58 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Registro de Cliente</h1>
+   
 
     <section class="formulario">
 
         <form action="/registro">
-            <div>
-                <label for="">Nombre</label>   
-                <input type="text" placeholder="Tu nombre">
+            <h1>Formulario de Registro</h1>
+
+            <div class="form-interno">
+                <div class="seccion-interna">
+                    <label for="">Nombre  </label>  
+                    <input type="text" placeholder="Tu nombre">
+                </div>
+                <div class="seccion-interna">
+                    <label for="">Apellido</label>  
+                    <input type="text" placeholder="Tu apellido">  
+                </div>
+            </div>
+           
+            <div class="form-interno">
+                <div class="seccion-interna">
+                    <label for="">DNI</label>  
+                    <input type="number" placeholder="Tu DNI sin puntos" maxlength="8">
+        
+                </div>
     
-                <label for="">Apellido</label>  
-                <input type="text" placeholder="Tu apellido">  
+                <div class="seccion-interna">
+                    <label for="">Email </label>
+                    <input type="email" placeholder="adalovelace@gmail.com">
+                </div>
             </div>
             
-            <div>
-                <label for="">DNI</label>  
-                <input type="number" placeholder="Tu DNI sin puntos" maxlength="8">
+            <div class="form-interno">
+                <div class="seccion-interna">
+                    <label for="">Contraseña</label>
+                    <input type="password"  maxlength="16">  
+                </div>
     
-                <label for="">Email </label>
-                <input type="email" placeholder="adalovelace@gmail.com">
+                <div class="seccion-interna">
+                    <label for="">Repetir Contraseña</label>
+                    <input type="password" maxlength="16">
+                </div>
+
+                
             </div>
+            <p>* La contraseña debe tener entre 8 y 16 caracteres</p>
+           
+            <div class="check-submit">
+                <label for="acepta">
+                    <input type="checkbox" name="terminos" value="si" /> Aceptar términos y condiciones
+                </label>
             
-            <div>
-                <label for="">Contraseña</label>
-                <input type="password"  maxlength="16">
-    
-                <label for="">Repetir Contraseña</label>
-                <input type="password" maxlength="16">
-                <p>*La contraseña debe tener entre 8 y 16 caracteres</p>
-            </div>
-            
-           <div>
-            <label for="acepta">
-                 <input type="checkbox" name="terminos" value="si" /> Acepta los terminos y condiciones
-            </label>
-            
-            
-            <input type="submit" value="Registrarse"> 
+                <input type="submit" value="Registrarse"> 
            </div>
             
             
