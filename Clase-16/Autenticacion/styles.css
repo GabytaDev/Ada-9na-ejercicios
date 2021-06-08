@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(223, 233, 248);
+    background-color: #ECF3F4;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -16,26 +16,83 @@ body{
     display: flex;
     text-align: center;
     flex-direction: column;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%)
+    
 }
 
 .nav{
     width: 550px;
     height: 30px;
-    background-color: rgb(224, 221, 221);
+    background-color: #ECF3F4;
     display: flex;
+
 }
 
 .detalle{
     height: 10px;
     width: 10px;
     border-radius: 100%;
-    background-color:rgb(173, 173, 173);
+    background-color:#C5C8D2;
     margin: 8px;
 }
+.formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    width: 230px;
+}
+p, .check{
+    font-size: 10px;
+    
+}
+
 .seccion-interna{
     display: flex;
     flex-direction: column;
+    margin-top: 18px;
+    width: 300px;
+    align-items: center;
+   
 }
 
+.input-style{
+    width: 230px;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(223, 223, 223);
+}
 
+.style-a{
+    margin-left: 60px;
+    color: #4F93DE;
+    text-decoration: none;
+    
+}
+.check{
+    width: 240px;
+    display: flex;
+}
+
+button{
+    width: 234px;
+    height: 39px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #4F93DE;
+    background-color: white;
+}
+
+.button-login{
+    background-color: #4F93DE;
+    color: white;
+}
 
