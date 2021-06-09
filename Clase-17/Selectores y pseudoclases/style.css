@@ -215,21 +215,31 @@ input {
   ----------------------------------
   - Seleccionar las frutas y ponerle un color rojo
 */
-
+.ejercicio-13 [data-categoria="fruta"]{
+  color: red;
+}
 /* 
   Ejercicio 14
   ----------------------------------
   - Seleccionar todos los inputs de tipo texto y ponerles un color de borde rojo
 */
+input[type="text"]{
+  border-color: red;
+}
 
 /* 
   Ejercicio 15
   ----------------------------------
   - Seleccionar todos los productos que tengan descuento y ponerles un color rojo
 */
-
+.ejercicio-15 [data-descuento]{
+  color: red;
+}
 /* 
   Ejercicio 16
   ----------------------------------
   - Seleccionar todos los productos que no pertenezcan a la categoría "electronica" y ponerles un color rojo
 */
+.ejercicio-16 [data-categoria="electronica"]{
+  color: red;
+}
