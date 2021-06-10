@@ -21,11 +21,16 @@ body, html{
     border-radius: 8px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    box-shadow: 8px 4px 20px 0 rgb(245, 183, 209);
 
+}
+h3{
+    text-align: left;
 }
 input{
     width: 344px;
     height: 40px;
+    
     
 }
 
@@ -48,3 +53,20 @@ textarea{
     margin-bottom: 20px;
 }
 
+.boton-create{
+    background-color: rgb(224, 71, 135);
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border:none;
+    width: 170px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+input, select, textarea{
+    border: 0.6px solid rgb(209, 208, 208);
+    border-radius: 3px;
+}

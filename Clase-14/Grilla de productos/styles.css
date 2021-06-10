@@ -60,7 +60,7 @@ p{
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px) and (min-width: 300px) {
     .container-grilla{
         max-width: 350px;
     }
