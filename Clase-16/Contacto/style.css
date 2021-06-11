@@ -1,19 +1,27 @@
 body, html{
     background-color: #ff69b4;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .content{
     border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 .nav{
-    width: 100%;
+    width: 90%;
     text-align:end;
-    padding: 10px;
-    
+    padding: 20px;
+    color: #808080;
+    font-size: 14px;
+}
+span{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .card{
     width: 400px;
@@ -22,9 +30,45 @@ body, html{
     justify-content: center;
 
 }
-
+.titulos{
+    text-align: center;
+}
 .formulario{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
+input{
+    margin: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    height: 36px;
+}
+input:focus{
+    border: 1px solid #d87093;
+    
+}
+input:hover{
+    border: 1px solid #d87093;
+    
+}
+
+textarea{
+    margin: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+textarea:hover{
+    border: 1px solid #d87093;
+   
+}
+button{
+    margin: 10px;
+    border: 1px solid #d87093;
+    background-color: #ff69b4;
+    border-radius: 5px;
+    height: 38px;
+    cursor: pointer;
+}
