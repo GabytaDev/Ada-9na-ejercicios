@@ -1,12 +1,15 @@
 body, html{
     background-color: #ff69b4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .content{
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     background-color: #ffffff;
     border-radius: 20px;
     height: 700px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,4 +74,5 @@ button{
     border-radius: 5px;
     height: 38px;
     cursor: pointer;
+    color: white;
 }
